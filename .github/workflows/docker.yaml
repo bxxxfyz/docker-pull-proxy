@@ -7,7 +7,7 @@ on:
   #   branches: [ main ]
 
 env:
-  REGISTRY: ubuntu/squid:latest registry.cn-hangzhou.aliyuncs.com/fyz240725/squid:latest
+  REGISTRY: langgenius/dify-api:0.6.11 registry.cn-hangzhou.aliyuncs.com/fyz240724/dify-api:0.6.11
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
   MM_NOTIFY_URL: "${{ secrets.MM_NOTIFY_URL }}"
